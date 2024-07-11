@@ -1,0 +1,125 @@
+.container{
+    margin:30px,10px,20px,10px;
+    background-color:lightyellow;
+    padding:10px;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Helvetica Neue', Arial, sans-serif;
+      font-size: 1.6rem;
+      line-height: 1.5;
+      text-align: center;
+      color: #333;
+      margin: 0;
+    }
+    @media (max-width: 460px) {
+      h1 {
+        font-size: 3.5rem;
+        line-height: 1.2;
+      }
+    }
+    @media (max-width: 460px) {
+      #main {
+        margin: 0;
+      }
+    }
+    .img-caption{
+      margin: 15px 0 5px 0;
+    }
+    @media (max-width: 460px) {
+      .img-caption{
+        font-size: 1.4rem;
+      }
+    }
+    .title{
+      margin-top:10px;
+      padding:2px;
+      text-align:center;
+    }
+    .line1{
+      width:80%;
+      margin-bottom:20px;
+    }  
+    
+    .line{
+      width:80%;
+      margin-bottom:20px;
+    }
+    .tri-info{
+      padding:10px;
+    }
+    .info{
+      padding:10px;
+    }
+    .quotes{
+      text-align:center;
+      margin:20px;
+    }
+    .quotes cite{
+      margin-left:65%;
+    }
+    .tri-link{
+      margin-left:20px;
+    }
+
+    #main {
+      margin: 30px 8px;
+      padding: 35px;
+      border-radius: 5px;
+      background: #eee;
+    }
+    
+    @media (max-width: 460px) {
+      #main {
+        margin: 0;
+      }
+    }
+    a:visited{
+      color:red;
+    }
+    ul {
+      max-width: 550px;
+      margin: 0 auto 50px auto;
+      text-align: left;
+      line-height: 1.6;
+    }
+    
+    li {
+      margin: 16px 0;
+    }
+    blockquote {
+      font-style: italic;
+      max-width: 545px;
+      margin: 0 auto 50px auto;
+      text-align: left;
+    }
+    h3{
+      color:black;
+      text-align:center;
+    }
+    .img-div {
+      background: #f2f2f2; 
+      padding: 20px;
+      margin: 0 auto; 
+      width: 50%; 
+      text-align: center;
+      border-radius: 30px; 
+      box-shadow: 0 4px 08px rgba(0,0,0,2); 
+    }
+    
+    .image {
+      max-width: 90%;
+      display: block;
+      height: auto;
+      margin: 0 auto;
+      border-radius: 10px; 
+    }
+    a:visited{
+      color:blue;
+    }
+    a:hover{
+      color:red;
+    }
+    a:action{
+      color:red;
+    }
